@@ -45,7 +45,7 @@ public class WorldGuessingGame
     //Método showWelcome
     private void showWelcome(){
        System.out.println("Bem vindo ao jogo de adivinhar a palavra");
-       System.out.println("A palavra que tens de adivinhar tem "+hiddenWord.length() + "letras");
+       System.out.println("A palavra que tens de adivinhar tem "+hiddenWord.length() + " letras");
     }
     
     private void guess(char letter) {
@@ -80,5 +80,6 @@ public class WorldGuessingGame
         showResult();
         scanner.close();
     }
+    
     
 }
